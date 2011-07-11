@@ -1,6 +1,6 @@
 from django.conf import settings
 import warnings
-def logo(request):
+def base_template(request):
     try:
         base_template = settings.BASE_TEMPLATE
     except AttributeError:
